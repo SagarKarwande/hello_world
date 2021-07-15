@@ -2,7 +2,7 @@ class Contact < ActiveRecord::Base
 
   extend ElasticsearchExtension
   extend ContactExtension
-
+  
   extend DataWrapper
   extend PersonalContactMatch
   

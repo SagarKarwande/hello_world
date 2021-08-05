@@ -9,7 +9,7 @@ class Company < ActiveRecord::Base
   
     enum data_sources: %I[linkedin crunchbase]
   
-    DATA_REFRESH_AFTER = 90.days
+    DATA_REFRESH_AFTER = 150.days
     RECENT_NEWS_PAGE_NO = 0
     RECENT_NEWS_SIZE = 3
     POPULARITY_LIMIT = 100001
